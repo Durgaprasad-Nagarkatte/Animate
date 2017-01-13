@@ -20,4 +20,27 @@
         android:scaleType="fitXY"
         android:contentDescription="@string/bart"
         android:onClick="fade" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mickey"
+        android:src="@drawable/mickey"
+        android:alpha="0"
+        android:contentDescription="@string/mickey"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/footer"
+        android:id="@+id/footer"
+        android:layout_alignBottom="@+id/bart"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp"
+        android:textColor="#0c0b0b"
+        android:textStyle="bold" />
+
 </RelativeLayout>
